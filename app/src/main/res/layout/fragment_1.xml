@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            style="@style/TextAppearance.MaterialComponents.Headline5"
+            tools:text="@string/namae_wa_nani" />
+        <EditText
+            android:id="@+id/et"
+            android:inputType="text"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:hint="Name"
+            android:background="@drawable/good_edit_text"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>
